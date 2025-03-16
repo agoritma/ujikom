@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    color: white;
+}
+
+.nav-link.active {
+    font-weight: bold;
+}
+
+nav {
+    .nav-link {
+        color: white !important;
+    }
+}
+
+#sidebarMenu {
+    height: 100vh;
+}
+
+.position-sticky {
+    position: sticky;
+    top: 0;
+}
